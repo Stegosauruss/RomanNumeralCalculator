@@ -36,17 +36,19 @@ class NumeralCalculator
 
     penultimate("M", "C", 1000, 100)
     split_integer("D", 500)
-    penultimate("D", "C", 500, 100)
 
+    penultimate("D", "C", 500, 100)
     split_integer("C", 100)
+
     penultimate("C", "X", 100, 10)
     split_integer("L", 50)
 
     penultimate("L", "X", 50, 10)
     split_integer("X", 10)
+    
     penultimate("X", "I", 10, 1)
-
     split_integer("V", 5)
+
     penultimate("V", "I", 5, 1)    
     split_integer("I", 1)
   
